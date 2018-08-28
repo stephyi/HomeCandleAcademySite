@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+html body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar {
+    display:flex;
+    justify-content: flex-end;
+
+}
+.navbar-nav> .nav-item{
+    margin-left:40px;
+    font-size:18px;
+}
+@media screen and (max-width:600px){
+    .navbar {
+        display:flex;
+        justify-content: center;
+    
+    }
+    .navbar-nav> .nav-item{
+        margin-left:0px;
+        font-size:18px;
+    }
+
+}
