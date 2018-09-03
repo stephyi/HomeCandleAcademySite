@@ -25,3 +25,36 @@ html body{
     }
 
 }
+.carousel-item>img{
+    height:550px;
+}
+hr{
+    
+    border-width:1.5px;
+    background-color:white;
+
+}
+.carousel-item>.carousel-caption{
+    margin-top:50px;
+    margin-bottom:80%;
+    font-size:28px;
+}
+.box{
+    background-color:gray;
+    height:200px;
+    
+}
+.container-fluid{
+    background-color:lightgray;
+    
+}
+.layer{
+    padding:15px;
+}
+
+.col-sm-5{
+    border-left:3px solid gray;
+}
+.background{
+    background-color:rgb(9, 14, 20);
+}
